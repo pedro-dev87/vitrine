@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas, sans-serif;
+}
+
+body{
+    background-color: black;
+    font: normal 20pt consolas, sans-serif;
+    color: white;
+    
+}
+
+.cronometro{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    user-select: none;
+
+}
+
+.wrapper .time span{
+    width: 100px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.buttons button{
+    padding: 5px 30px;
+    border: 0px;                                                                                                                                                                                                                                                                             
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-right: 5px;
+    margin-top: 20px;
+
+}
+
+.time span.ms-colon,
+.time span.millisecond{
+    color: #2ae853;
+}
+
+.buttons button.play{
+    background-color: #2ae853;
+}
+.buttons button.stopPlay{
+    cursor: not-allowed;
+    background-color: rgb(255, 0, 0);
+}
+
